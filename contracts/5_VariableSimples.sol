@@ -6,6 +6,10 @@ pragma solidity >=0.8.2 <0.9.0;
 
     uint256 public edad; //por defecto toma el valor de cero
     
+    constructor (uint256){
+        edad = edad;
+    }
+    
     function cambiarEdad (uint256 nuevaEdad) public {
         edad = nuevaEdad;
     }
@@ -14,5 +18,5 @@ pragma solidity >=0.8.2 <0.9.0;
         return  edad;
     }
 
-    
+
  }
