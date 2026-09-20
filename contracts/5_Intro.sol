@@ -18,5 +18,8 @@ pragma solidity >=0.8.2 <0.9.0;
         return  edad;
     }
 
+    function sumar (uint256 valor1, uint256 valor2) public pure returns (uint256){      //no cambia las varaibles de estado
+        return valor1 + valor2;
+    }
 
  }
