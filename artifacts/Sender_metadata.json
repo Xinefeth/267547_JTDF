@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_edad",
+						"name": "_cantidad",
 						"type": "uint256"
 					}
 				],
@@ -20,23 +20,23 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_edad",
+						"name": "_cantidad",
 						"type": "uint256"
 					}
 				],
-				"name": "cambiarEdad",
+				"name": "cambiarEntidad",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "devolverEdad",
+				"name": "cuentaInicial",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -44,7 +44,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "edad",
+				"name": "obtenerCantidad",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -69,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/5_VariableSimples.sol": "VariableSimples"
+			"contracts/6_Sender.sol": "Sender"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -83,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/5_VariableSimples.sol": {
-			"keccak256": "0x5caa63f66c82bf88b1a1eb81c7e146c24f78fff9b3f3a58752c0922ec210cd44",
+		"contracts/6_Sender.sol": {
+			"keccak256": "0x6b4638ce925b58d891816b66f68d07f92ed750dec1c46c2b6aadd76b30cfeb33",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0da95807e17bed8a5909cedf98b024708ecb9ce0d7b94cc4cb1aafdab7605a22",
-				"dweb:/ipfs/Qmb7G2fcGAWcvj4rirsdHUzA2KK3zB8HH9zvLXoubLt21z"
+				"bzz-raw://9ad406436bbc30ab843f6691756235b112ac1949ee8a8c851c7fd945c87cd962",
+				"dweb:/ipfs/QmbhdCvdL5trZJ8dDfscDvgECT68KzoP1pUuueMX5P9cYL"
 			]
 		}
 	},
