@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "agregarAlumno",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "alumnos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "edad",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indice",
+						"type": "uint256"
+					}
+				],
+				"name": "mostrarAlumnoV1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Edad",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15_Complejos_Struct.sol": "ComplejosStruct"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15_Complejos_Struct.sol": {
+			"keccak256": "0x6848446c8c24dd8d9e2235c29589292fdf081a49344f710eb817cdec54b71ad3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be2d256cf21927384697940a312684e9a2ad8de772dcf28b51f420fba4eee723",
+				"dweb:/ipfs/Qmb4AiudtcojV3mTUX9pDR5A4w5vYfZzJo2XZ5RWBAaTd5"
+			]
+		}
+	},
+	"version": 1
+}
