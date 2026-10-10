@@ -9,6 +9,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_monto",
+						"type": "uint256"
+					}
+				],
+				"name": "AsignarSoles",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_codigo",
 						"type": "uint256"
 					},
@@ -32,25 +45,73 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "alumnos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "edad",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_codigo",
 						"type": "uint256"
 					}
 				],
-				"name": "buscarAlumno",
+				"name": "obtenerEmpleado",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "Codigo",
+						"name": "codigo",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
-						"name": "Nombre",
+						"name": "nombre",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "Edad",
+						"name": "edad",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "saldoCuentas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -61,89 +122,13 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_indice",
+						"name": "_monto",
 						"type": "uint256"
 					}
 				],
-				"name": "mostrarAlumnoV1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "Codigo",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "Nombre",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_indice",
-						"type": "uint256"
-					}
-				],
-				"name": "mostrarAlumnoV2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "Codigo",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "Nombre",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "Edad",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_indice",
-						"type": "uint256"
-					}
-				],
-				"name": "mostrarAlumnoV3",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256",
-								"name": "codigo",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "nombre",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "edad",
-								"type": "uint256"
-							}
-						],
-						"internalType": "struct ComplejosStruct.Alumno",
-						"name": "alumno",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
+				"name": "sumarSoles",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -160,7 +145,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15_Complejos_Struct.sol": "ComplejosStruct"
+			"contracts/16_Complejos_Mapping.sol": "ComplejosMapping"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -174,12 +159,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15_Complejos_Struct.sol": {
-			"keccak256": "0xc6f6cd01447b70850db373a57c775dbf5245a6ad5e47b995b6a517f7190559f6",
+		"contracts/16_Complejos_Mapping.sol": {
+			"keccak256": "0x8b25776403fa3efb4105249d6a74d6e1e080684fd36082399d55d88b0622b0ad",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bff51626465077cdafe7ffcb44775e32944dee8a37298b43ebab8d8aa75468b7",
-				"dweb:/ipfs/QmcY2sewomfoo8TgUTXPYHhwnCwyRTP3m6kPLTU35mK7Fu"
+				"bzz-raw://0ea4ad3e31d52bbb7721b095f1eb5030baafe009b46a3f3036a0243e0d4a5e8d",
+				"dweb:/ipfs/QmYzTv2nMQA5nejTXE94qcyDU2viNhdJjEs7kuq6hpKFvz"
 			]
 		}
 	},
