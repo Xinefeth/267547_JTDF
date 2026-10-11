@@ -214,6 +214,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "balanceOfBFC",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -255,6 +274,19 @@
 			{
 				"inputs": [],
 				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupplyBFC",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -477,11 +509,11 @@
 			]
 		},
 		"contracts/20_MiTokenERC20.sol": {
-			"keccak256": "0x480ad03421e21b4d0d1a327b9cb6bfd40c8d1b779840722c0c28566cfa03467d",
+			"keccak256": "0x005922c58fe74b03eddfe06b06813934082ad650983d754599823eafa9a6ff66",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6e6616f3383ffe4c2e4141b1ba1a46e79edf6fa79bdcb44a26aaab798e1834e4",
-				"dweb:/ipfs/QmNagGdfqC3WEjv2x7iq7b8wD7BjsXjvBkVePQFm3UMvvX"
+				"bzz-raw://6af51e0414b83aa334510b5665374c39ba2cdbb6463b7b5b70d288086c74520f",
+				"dweb:/ipfs/QmTfxmoHfgXVP4XMVqjREkXiWTNkKXMqNTx9oNTQjXToaP"
 			]
 		}
 	},
