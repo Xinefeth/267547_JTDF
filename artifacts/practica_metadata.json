@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practica.sol": "practica"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practica.sol": {
+			"keccak256": "0xa589a51d4145e0a89e76bcc99c4283c37036a1b7d4e9ce9d96b3ad38a5946694",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f4953be56a30d83dcb097a89f0b648f6402e3f66ac700a2a640ac4387999ddd2",
+				"dweb:/ipfs/QmTo9Qhog9YYw9HYoPhJ9qPvvya54jV7dFTpLHZRxN2ULK"
+			]
+		}
+	},
+	"version": 1
+}
