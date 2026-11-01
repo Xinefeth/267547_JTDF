@@ -1,6 +1,7 @@
 
  // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
+import "hardhat/console.sol";
 
 contract Gym267547 {
 
@@ -9,6 +10,7 @@ contract Gym267547 {
         string nombre;
         uint256 edad;
         string membresia;
+        bool estado;
     }
 
     Miembro[] public miembros;
@@ -21,18 +23,25 @@ contract Gym267547 {
         direccion = msg.sender;
     }
 
-    // a) Agregamos un miembro al gimnasio.
-    function agregarElemento(uint256 _id, string memory _nombre, uint256 _edad, string memory _membresia) public {
-        miembros.push(Miembro(_id, _nombre, _edad, _membresia));
+    function agregarElemento(uint256 _id, string memory _nombre, uint256 _edad, string memory _membresia, bool _estado) public {
+        miembros.push(Miembro(_id, _nombre, _edad, _membresia, _estado));
     }
 
-    // b) Contamos la cantidad de miembros registrados.
     function contarElementos() public view returns (uint256) {
         return miembros.length;
     }
 
-    // d) Cambiamos la direccion almacenada en el contrato.
     function cambiarDireccion(address _direccion) public {
         direccion = _direccion;
+    }
+
+    function mostrarActivos() public view {
+        for (uint256 i = 0; i < miembros.length; i++) {
+            if (miembros[i].estado == true) {
+                console.log("Ejecutado por 267547 - Diego Francesco Jara Tirado"); // Mostramos el codigo y nombre completo del estudiante.
+                console.log("Miembro activo:", miembros[i].id, miembros[i].nombre);
+                
+            }
+        }
     }
 }

@@ -246,6 +246,61 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_cuenta",
+						"type": "address"
+					}
+				],
+				"name": "esSocio",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "mintear",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "mintearBFT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -253,6 +308,19 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -509,11 +577,11 @@
 			]
 		},
 		"contracts/20_MiTokenERC20.sol": {
-			"keccak256": "0x005922c58fe74b03eddfe06b06813934082ad650983d754599823eafa9a6ff66",
+			"keccak256": "0xe6943decf87f2bd9c1866502ac2093e503349ed8f02b880482d5f6d91e66df35",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6af51e0414b83aa334510b5665374c39ba2cdbb6463b7b5b70d288086c74520f",
-				"dweb:/ipfs/QmTfxmoHfgXVP4XMVqjREkXiWTNkKXMqNTx9oNTQjXToaP"
+				"bzz-raw://60d1d287d8206af69cf33cb0b46a71d6b931ac3a94e7c03ab5c6bab1143b5098",
+				"dweb:/ipfs/QmSYpze51Bx41PbyjnCSRnD9MfUL9wJSdMs8NDG67yUeDX"
 			]
 		}
 	},

@@ -30,7 +30,6 @@ contract Perro is Animal{
     
 }
 
-
 contract Gato is Animal{
     constructor() Animal ("Gato"){
 
