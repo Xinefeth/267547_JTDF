@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "teoria",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "practica",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "laboratorio",
+						"type": "uint256"
+					}
+				],
+				"name": "calcularNotaFinal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/24_CalculadoraNotas.sol": "CalculadoraNotas"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"contracts/24_CalculadoraNotas.sol": {
+			"keccak256": "0x8d0e7a1830ea6339a4b12b0ad1c92cef1a21bb05d3f732021a81cc4548ee1eb4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1406a35a8428357c8f1bae0f6a67cd718e58c2c5c75766a803d89d0291fcb57a",
+				"dweb:/ipfs/QmU5wpGgLyhfswZzW69ZYHkUYEofbZYQ11nnE92KyU7DsF"
+			]
+		}
+	},
+	"version": 1
+}

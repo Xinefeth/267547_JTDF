@@ -72,7 +72,7 @@
 		"compilationTarget": {
 			"contracts/7_Eventos.sol": "Eventos"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

@@ -11,51 +11,6 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "administradores",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_cuenta",
-						"type": "address"
-					}
-				],
-				"name": "agregarAdministrador",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "consultarBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "depositar",
 				"outputs": [],
@@ -98,7 +53,7 @@
 		"compilationTarget": {
 			"contracts/21_Teleton.sol": "Teleton"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -111,11 +66,11 @@
 	},
 	"sources": {
 		"contracts/21_Teleton.sol": {
-			"keccak256": "0x06ad335f57083cdb7e604abb0c93b0519f3ced53363759a2fd814fad98dd4dba",
+			"keccak256": "0x5f0c5658490b1c3f6b438f566a69572624d6b6ffe0d02931f46e567cb256f556",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://edfd85fcdaa32af5d8b0cc8a9bddeed25e82f01312cd2427a2a45f9bd62cb3c3",
-				"dweb:/ipfs/Qmf2YreGABFqRpEcwYbPjCMmxz4TNjbkqxQNafFjz5WZch"
+				"bzz-raw://91dfafc5015110e3107b577a56e512367e569e65b35a899442bd83f30e22fdae",
+				"dweb:/ipfs/QmZfhKYG3ffnnxnesUtZcgm8USJzttu39CHrwQHQHyewsu"
 			]
 		}
 	},
