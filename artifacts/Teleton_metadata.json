@@ -66,11 +66,11 @@
 	},
 	"sources": {
 		"contracts/21_Teleton.sol": {
-			"keccak256": "0x5f0c5658490b1c3f6b438f566a69572624d6b6ffe0d02931f46e567cb256f556",
+			"keccak256": "0xee54acb6cd3921ae435fe745a8285486ca56aeef7575f507b592ef65e13142a2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://91dfafc5015110e3107b577a56e512367e569e65b35a899442bd83f30e22fdae",
-				"dweb:/ipfs/QmZfhKYG3ffnnxnesUtZcgm8USJzttu39CHrwQHQHyewsu"
+				"bzz-raw://e450de69fde9b28ccf20d1a40e388cc978f068263d34053d33e8beae81dbf227",
+				"dweb:/ipfs/QmSEqqnUFWC191aBuM5Lk9YFcUDW654v4DQ4BKACpoQobG"
 			]
 		}
 	},

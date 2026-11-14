@@ -2,23 +2,23 @@
 pragma solidity >=0.8.2 <0.9.0;
 
 contract Teleton {
-    address public owner;
+    address public owner;    
 
-    constructor (){
-        owner = msg.sender ;
+    constructor() {
+        owner = msg.sender;
     }
 
-    modifier isOwner(){
-        require(msg.sender== owner, "No eres el owner del contrato :3"); 
+    modifier isOwner() {
+        require(msg.sender == owner, "No eres el owner del contrato");
         _;
     }
-    
-    
-    function depositar () public payable{
+
+    function depositar() public payable {
+
     }
 
-
-    function retirar () public isOwner{
-        payable (owner).transfer(address(this).balance);
+    function retirar() public isOwner {
+        payable(owner).transfer(address(this).balance);
     }
+
 }
