@@ -262,7 +262,7 @@
 						"type": "address"
 					}
 				],
-				"name": "balanceOfBFC",
+				"name": "balanceOfBFT",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -271,6 +271,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "comprarTokens",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -309,12 +316,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "to",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "cantidad",
+						"name": "_cantidad",
 						"type": "uint256"
 					}
 				],
@@ -327,12 +334,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "to",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "cantidad",
+						"name": "_cantidad",
 						"type": "uint256"
 					}
 				],
@@ -369,7 +376,27 @@
 			},
 			{
 				"inputs": [],
+				"name": "precioToken",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "renounceOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retirar",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -402,7 +429,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "totalSupplyBFC",
+				"name": "totalSupplyBFT",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -665,11 +692,11 @@
 			]
 		},
 		"contracts/22_BallenitaFCToken.sol": {
-			"keccak256": "0x89c7cb81aa6c96219691899fdab7a2dd43af4223d9187c6d53cade9ea947b72f",
+			"keccak256": "0xfb72330a2af9075d97794aa08f65a2d9213e9fb699550d5c955f69a67ded3bdc",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7a5245a9578dbb593d78310b522a41ce084fd927da6089106b2a3e1261ca1f69",
-				"dweb:/ipfs/QmQaj8zS2eLFVsESrrmSStycyNczLe362W4SjX8PxgQDHa"
+				"bzz-raw://2aa708a3a5df36ce168f68de60f7d8cb86446d8719c0602132352a13b646a010",
+				"dweb:/ipfs/QmczM6MQbkCBymdtJJ43MdCsaVL2dpcR4fMhUhmsv54drs"
 			]
 		}
 	},

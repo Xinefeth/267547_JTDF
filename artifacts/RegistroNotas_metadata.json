@@ -165,6 +165,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "verFormula",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "verMiNota",
 				"outputs": [
 					{
@@ -214,7 +227,7 @@
 		"compilationTarget": {
 			"contracts/24_CalculadoraNotas.sol": "RegistroNotas"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -243,11 +256,11 @@
 			]
 		},
 		"contracts/24_CalculadoraNotas.sol": {
-			"keccak256": "0x8d0e7a1830ea6339a4b12b0ad1c92cef1a21bb05d3f732021a81cc4548ee1eb4",
+			"keccak256": "0x602a821d212a958d54b68271941e0963be6579c83eb3a2142512393e7c16c71e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1406a35a8428357c8f1bae0f6a67cd718e58c2c5c75766a803d89d0291fcb57a",
-				"dweb:/ipfs/QmU5wpGgLyhfswZzW69ZYHkUYEofbZYQ11nnE92KyU7DsF"
+				"bzz-raw://d1deddaea162e083c1c2a246f659173239d8d465ce4a06f628c0e3d4a21258df",
+				"dweb:/ipfs/QmaSow3gTGMTRTUvB4h4p8d6rPoQeVaxBf44Lkd7yWhVdZ"
 			]
 		}
 	},
